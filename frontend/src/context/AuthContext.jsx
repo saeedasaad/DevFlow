@@ -20,7 +20,6 @@ function authReducer(state, action) {
       return state;
   }
 }
-
 export function AuthProvider({ children }) {
   const [state, dispatch] = useReducer(authReducer, initialState);
 
